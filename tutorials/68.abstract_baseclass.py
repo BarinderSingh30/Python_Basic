@@ -1,4 +1,5 @@
 #abstrat base class and abstract method : to force a method in a class 
+# you cannot make object of abstract base class
 
 from abc import ABC,abstractmethod
 
@@ -13,7 +14,7 @@ class Rectangle(Shape):
         self.length=7
         self.breath=8
 
-    def printarea(self):
+    def printarea(self):                    # if you don't define this it will give you error
         return self.length*self.breath
 
 

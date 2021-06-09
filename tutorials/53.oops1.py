@@ -1,7 +1,7 @@
-class student:
+class student:      #making a class
     pass
 
-barinder = student()
+barinder = student()            #initialising the object
 bombay = student()
 
 barinder.name='Barinder Singh'
