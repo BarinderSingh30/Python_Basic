@@ -1,3 +1,5 @@
+#----------------------Library management----------------------------------------------
+
 # Create a library class
 # display book
 # lend book - (who owns the book if not present)
@@ -11,7 +13,10 @@
 
 # create a main function and run an infinite while loop asking
 # users for their input
-#---------------------------------------------------------------------------------------------
+
+
+#can be used at the backend by changing some things, and also can add alot more feature its just a prototype
+#---------------------------------------------------------------------------------------------------------------------
 import time
 
 class Library:
