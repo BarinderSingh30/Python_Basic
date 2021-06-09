@@ -1,0 +1,29 @@
+STEP 0 : SETTING UP THE ENVIRONMENT
+
+we install following modules using pip
+
+pip install requests
+pip install html5lib
+pip install bs4
+
+-------------------------------------------------------------------------------------------------------------------
+
+STEP 1 : FETCHING THE HTML CONTENT
+
+we will use requests module to fetch the content.
+
+-------------------------------------------------------------------------------------------------------------------
+
+STEP 2 : PARSE THE HTML
+
+We will use beautifulsoap module which will create a tree like structure for our DOM.
+
+-------------------------------------------------------------------------------------------------------------------
+
+STEP 3 : HTML TREE TRAVERSAL
+
+We will file some queries to get our desired format
+
+--------------------------------------------------------------------------------------------------------------------
+
+NOTE : make sure to have a internet while scrapping.
