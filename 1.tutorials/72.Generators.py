@@ -15,10 +15,11 @@ def gen(n):
 
 g=gen(3456)         #g is used as generators
 
-# print(g.__next__())
-# print(g.__next__())
-# print(g.__next__())
-# print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
 
 
 h= "harry"
@@ -26,9 +27,9 @@ h= "harry"
 # for c in h:
 #     print(c)
 
-ier = h.__iter__()
-print(ier.__next__())
-print(ier.__next__())
-print(ier.__next__())
-print(ier.__next__())
-print(ier.__next__())
+# ier = h.__iter__()
+# print(ier.__next__())
+# print(ier.__next__())
+# print(ier.__next__())
+# print(ier.__next__())
+# print(ier.__next__())
